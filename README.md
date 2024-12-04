@@ -50,7 +50,7 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 - [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## University of Pennsylvania, BSds in Computer Science
 
 - Sept 2000 – May 2005
 - GPA: 3.9/4.0 ([Transcript](https://example.com))
