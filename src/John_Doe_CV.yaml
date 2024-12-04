@@ -30,7 +30,7 @@ cv:
     education:
       - institution: University of Pennsylvania
         area: Computer Science
-        degree: BS
+        degree: BSds
         start_date: 2000-09
         end_date: 2005-05
         highlights:
