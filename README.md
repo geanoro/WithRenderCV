@@ -58,6 +58,22 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 
 # Experience
 
+## Tecnosens, Software Engineer
+
+- July 2024 – present
+- Brescia, IT
+- sfruttato
+- sottopagato
+- se stai leggendo sto scherzando
+
+## Tecnosens 2, Bidello
+
+- July 2024 – present
+- Brescia, IT
+- sfruttato
+- sottopagato
+- se stai leggendo sto scherzando
+
 ## Apple, Software Engineer
 
 - June 2005 – Aug 2007
