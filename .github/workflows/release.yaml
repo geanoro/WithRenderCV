@@ -2,8 +2,8 @@ name: Release a CV
 
 on:
   push:
-    branches:
-      - main  # o il nome del tuo branch principale
+    tags:
+      - "*" # Any tag pushed to the repository
       
 permissions:
   contents: write
