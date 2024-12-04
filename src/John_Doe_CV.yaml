@@ -38,6 +38,25 @@ cv:
           - '**Coursework:** Computer Architecture, Comparison
             of Learning Algorithms, Computational Theory'
     experience:
+      - company: Tecnosens
+        position: Software Engineer
+        location: Brescia, IT
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - sfruttato
+          - sottopagato
+          - se stai leggendo sto scherzando
+      - company: Tecnosens 2
+        position: Bidello
+        location: Brescia, IT
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - sfruttato
+          - sottopagato
+          - se stai leggendo sto scherzando
+
       - company: Apple
         position: Software Engineer
         location: Cupertino, CA
