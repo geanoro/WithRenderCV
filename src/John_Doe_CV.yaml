@@ -124,10 +124,15 @@ cv:
           Builder
 design:
   theme: moderncv
-  font_size: 10pt
-  page_size: letterpaper
+  font_size: "11pt"
+  page_size: a4paper
   color: blue
+  
   date_width: 3.8 cm
   content_scale: 0.75
+  
   show_only_years: false
   disable_page_numbers: false
+  
+  
+  
