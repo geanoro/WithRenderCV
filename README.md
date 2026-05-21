@@ -9,9 +9,9 @@
 
 # Summary
 
-Software Engineer who builds end to end — from .NET/WPF desktop interfaces to the database architecture and computer-vision pipelines behind them.
+Full-stack engineer who ships end to end — React/FastAPI web apps, .NET desktop software, and a fork of an open-source Go platform.
 
-Shipped the first production release of an industrial measurement system on a 5-month timeline.
+Delivered a production industrial measurement system and a complete registration portal for a freelance client.
 
 Background in IoT, telecommunications and signal processing; picks up new stacks fast.
 
@@ -29,22 +29,30 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 # Projects
 
+## Pyromac Portal — Full-Stack Registration Platform
+
+- Aug 2025 – May 2026
+- Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP, JWT auth and Argon2 password hashing.
+- Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.
+- Integrated Twilio, Resend, hCaptcha and Redis, and handled deployment to the production server.
+
+## Whatomate — WhatsApp Business Platform (Open Source)
+
+- Dec 2025 – present
+- Extended the visual flow builder with conditional branching logic and added per-session run logs for end-to-end flow debugging.
+- Built a webhook trigger API letting external systems (CRM, e-commerce) start chatbot flows with injected variables.
+- Worked across the Go backend and the Vue 3 frontend.
+
+## Back-Office Web Application Refactoring
+
+- Refactored the back-office web application of an e-commerce platform built on PHP and Symfony.
+- Set up CI/CD pipelines to automate build and deployment.
+
 ## Thesis — OCR in the Wild
 
 - Mar 2024 – Mar 2024
 - Surveyed classical and modern OCR methods, deep-diving CRNN architectures.
 - Compared transformer-based state-of-the-art approaches against traditional pipelines across vision and NLP tasks.
-
-## WebValley 2019
-
-- July 2019
-- Implemented the SCORE cardiovascular-risk algorithm and analyzed microbiota–risk correlations via Differential Network Analysis.
-- Tools: Python, Anaconda.
-
-## GREEN FBK 2019
-
-- July 2019
-- Built an air-quality monitor detecting alcohol levels (C).
 
 # Education
 
@@ -60,6 +68,6 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 # Skills
 
-- Languages: C#, C++, C, Java, Python, SQL
-- Technologies: .NET Framework, WPF, Git, Jira, Figma
+- Languages: JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java
+- Technologies: React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines
 - Interests: Basketball, running, 3D printing

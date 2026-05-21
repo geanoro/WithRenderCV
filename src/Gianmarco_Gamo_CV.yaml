@@ -11,8 +11,8 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Software Engineer who builds end to end — from .NET/WPF desktop interfaces to the database architecture and computer-vision pipelines behind them.'
-      - 'Shipped the first production release of an industrial measurement system on a 5-month timeline.'
+      - 'Full-stack engineer who ships end to end — React/FastAPI web apps, .NET desktop software, and a fork of an open-source Go platform.'
+      - 'Delivered a production industrial measurement system and a complete registration portal for a freelance client.'
       - 'Background in IoT, telecommunications and signal processing; picks up new stacks fast.'
     experience:
       - company: Tecnosens SpA
@@ -28,6 +28,27 @@ cv:
           - 'Ran repeatability & reproducibility (R&R) analysis to validate measurement accuracy.'
           - 'Delivered the first production release within a 5-month development timeline.'
     projects:
+      - name: 'Pyromac Portal — Full-Stack Registration Platform'
+        start_date: 2025-08
+        end_date: 2026-05
+        summary: 'Full-stack web portal delivered for a freelance client.'
+        highlights:
+          - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP, JWT auth and Argon2 password hashing.'
+          - 'Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.'
+          - 'Integrated Twilio, Resend, hCaptcha and Redis, and handled deployment to the production server.'
+      - name: 'Whatomate — WhatsApp Business Platform (Open Source)'
+        start_date: 2025-12
+        end_date: present
+        summary: 'Fork of an open-source, single-binary WhatsApp platform written in Go.'
+        highlights:
+          - 'Extended the visual flow builder with conditional branching logic and added per-session run logs for end-to-end flow debugging.'
+          - 'Built a webhook trigger API letting external systems (CRM, e-commerce) start chatbot flows with injected variables.'
+          - 'Worked across the Go backend and the Vue 3 frontend.'
+      - name: 'Back-Office Web Application Refactoring'
+        summary:
+        highlights:
+          - 'Refactored the back-office web application of an e-commerce platform built on PHP and Symfony.'
+          - 'Set up CI/CD pipelines to automate build and deployment.'
       - name: 'Thesis — OCR in the Wild'
         start_date: 2024-03
         end_date: 2024-03
@@ -35,17 +56,6 @@ cv:
         highlights:
           - 'Surveyed classical and modern OCR methods, deep-diving CRNN architectures.'
           - 'Compared transformer-based state-of-the-art approaches against traditional pipelines across vision and NLP tasks.'
-      - name: WebValley 2019
-        date: 2019-07
-        summary: 'Selected for an internationally competitive AI & Health summer research camp.'
-        highlights:
-          - 'Implemented the SCORE cardiovascular-risk algorithm and analyzed microbiota–risk correlations via Differential Network Analysis.'
-          - 'Tools: Python, Anaconda.'
-      - name: GREEN FBK 2019
-        date: 2019-07
-        summary: 'One-week embedded-systems workshop on smart cities.'
-        highlights:
-          - 'Built an air-quality monitor detecting alcohol levels (C).'
     education:
       - institution: Università degli Studi di Brescia
         area: Engineering of Digital Enterprise Technologies (ITID)
@@ -67,9 +77,9 @@ cv:
         highlights: []
     skills:
       - label: Languages
-        details: 'C#, C++, C, Java, Python, SQL'
+        details: 'JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java'
       - label: Technologies
-        details: '.NET Framework, WPF, Git, Jira, Figma'
+        details: 'React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines'
       - label: Interests
         details: 'Basketball, running, 3D printing'
   sort_entries: none
