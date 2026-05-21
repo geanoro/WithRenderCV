@@ -11,9 +11,9 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Full-stack engineer who ships end to end — React/FastAPI web apps, .NET desktop software, and a fork of an open-source Go platform.'
-      - 'Delivered a production industrial measurement system and a complete registration portal for a freelance client.'
-      - 'Background in IoT, telecommunications and signal processing; picks up new stacks fast.'
+      - 'Full-stack engineer who ships end to end across web (React/FastAPI), desktop (.NET) and Go services.'
+      - 'I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.'
+      - 'Proven on real deliveries: a production industrial measurement system and a complete registration portal for a freelance client.'
     experience:
       - company: autosupermarket.it
         position: Full-Stack Engineer
@@ -77,16 +77,16 @@ cv:
       - label: Technologies
         details: 'React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines'
       - label: Interests
-        details: 'Basketball, running, 3D printing'
+        details: 'Basketball, running (marathon finisher), 3D printing'
   sort_entries: none
 design:
   theme: classic
   page:
     size: a4
-    top_margin: 1.8cm
-    bottom_margin: 1.8cm
-    left_margin: 1.8cm
-    right_margin: 1.8cm
+    top_margin: 1.7cm
+    bottom_margin: 1.7cm
+    left_margin: 1.7cm
+    right_margin: 1.7cm
     show_page_numbering: false
     show_last_updated_date: false
   colors:
@@ -127,7 +127,7 @@ design:
     bold: true
     small_caps: false
     line_thickness: 0.5pt
-    vertical_space_above: 0.3cm
+    vertical_space_above: 0.25cm
     vertical_space_below: 0.2cm
   entries:
     date_and_location_width: 4.15cm

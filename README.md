@@ -9,11 +9,11 @@
 
 # Summary
 
-Full-stack engineer who ships end to end — React/FastAPI web apps, .NET desktop software, and a fork of an open-source Go platform.
+Full-stack engineer who ships end to end across web (React/FastAPI), desktop (.NET) and Go services.
 
-Delivered a production industrial measurement system and a complete registration portal for a freelance client.
+I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.
 
-Background in IoT, telecommunications and signal processing; picks up new stacks fast.
+Proven on real deliveries: a production industrial measurement system and a complete registration portal for a freelance client.
 
 # Experience
 
@@ -65,4 +65,4 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 - Languages: JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java
 - Technologies: React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines
-- Interests: Basketball, running, 3D printing
+- Interests: Basketball, running (marathon finisher), 3D printing
