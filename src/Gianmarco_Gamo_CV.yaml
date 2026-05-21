@@ -3,7 +3,7 @@ cv:
   location: Brescia, IT
   email: gamogianmarco@gmail.com
   phone: +39 324 825 1107
-  website: 
+  website:
   social_networks:
     - network: LinkedIn
       username: gianmarcogamo
@@ -11,123 +11,84 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Junior Software Engineer with minor experience on computer vision and measurement systems'
-      - 'Good background in telecommunications systems, IoT'
-      - 'Strong focus on making a flexible design and analysis while learning continuously'
-      - 'Loves simple and scalable solutions that reflect how nature works'
-    education:
-      - institution: Universitá degli Studi di Brescia
-        area: ITID, Ingegneria delle Tecnologie per l'Impresa Digitale
-        degree: Bachelor
-        grade: 109/110
-        start_date: 2020-09
-        end_date: 2024-03
-        location: Brescia, IT
-        summary: 'Coursework: Computer Architecture, Control Systems, IoT, Microservice Architecture, User Experience, Big Data, Robotics, Information Theory, Cyber Security, Signal Analysis, Electronic Circuits, Embedded Systems'
-        highlights: []
-      - institution: IIS Benedetto Castelli
-        area: Dipartimento di Informatica, Sez. Telecomunicazioni
-        degree: HS Diploma
-        grade: 100 cum laude
-        start_date: 2015-09
-        end_date: 2020-06
-        location: Brescia, IT
-        summary: 'Coursework: Telecommunications systems, TCP Protocol, C, Python, Java, Fiber optics'
-        highlights: []
+      - 'Software Engineer who builds end to end — from .NET/WPF desktop interfaces to the database architecture and computer-vision pipelines behind them.'
+      - 'Shipped the first production release of an industrial measurement system on a 5-month timeline.'
+      - 'Background in IoT, telecommunications and signal processing; picks up new stacks fast.'
     experience:
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
         end_date: present
         location: Brescia, IT
-        summary: null
+        summary:
         highlights:
-          - 'Developed UI for an advanced measuring system utilizing Cobot'
-          - 'WPF and .NET Framework'
-          - 'Designed and implemented database architecture supporting multiple geometry types for measurement applications'
-          - 'R&R test and analysis of measuring systems'
-          - 'Computer Vision for ROI Detection during strain capture of glass objects'
-          - 'Successfully delivered first release within 5-month development timeline'
+          - 'Built the full desktop application (WPF, .NET Framework) for a cobot-driven optical measurement system, owning the UI end to end.'
+          - 'Designed and implemented the database architecture supporting multiple geometry types, letting the system handle heterogeneous measurement applications.'
+          - 'Developed a computer-vision routine for automatic ROI detection during strain capture of glass objects, removing a manual setup step.'
+          - 'Ran repeatability & reproducibility (R&R) analysis to validate measurement accuracy.'
+          - 'Delivered the first production release within a 5-month development timeline.'
     projects:
-      - name: Thesis - OCR Algorithm in the Wild
-        date:
+      - name: 'Thesis — OCR in the Wild'
         start_date: 2024-03
         end_date: 2024-03
-        location:
-        summary: null
+        summary:
         highlights:
-          - 'Conducted comprehensive review of classical and modern OCR methodologies'
-          - 'Research on CRNN algorithms'
-          - 'Introduction on how are Transformers applied for both Computer Vision and NLP tasks'
-          - 'Performed comparative analysis of state-of-the-art vs traditional methods'
+          - 'Surveyed classical and modern OCR methods, deep-diving CRNN architectures.'
+          - 'Compared transformer-based state-of-the-art approaches against traditional pipelines across vision and NLP tasks.'
       - name: WebValley 2019
         date: 2019-07
-        start_date:
-        end_date:
-        location:
-        summary: 'Participated in internationally selective AI and Health summer camp'
+        summary: 'Selected for an internationally competitive AI & Health summer research camp.'
         highlights:
-          - 'Developed SCORE algorithm for classic risk of cardiovascular disease'
-          - 'Analyzed correlations between microbiota and risk classification using Differential Network Analysis'
-          - 'Tools Used: Python, Anaconda'
-          - 'github.com/name/repo'
-      - name: GREEN fbk
+          - 'Implemented the SCORE cardiovascular-risk algorithm and analyzed microbiota–risk correlations via Differential Network Analysis.'
+          - 'Tools: Python, Anaconda.'
+      - name: GREEN FBK 2019
         date: 2019-07
-        start_date:
-        end_date:
-        location:
-        summary: '1 week workshop on embedded systems and smart cities'
+        summary: 'One-week embedded-systems workshop on smart cities.'
         highlights:
-          - 'Air-quality monitoring through alcohol levels Detection'
-          - 'Tools Used: C'
+          - 'Built an air-quality monitor detecting alcohol levels (C).'
+    education:
+      - institution: Università degli Studi di Brescia
+        area: Engineering of Digital Enterprise Technologies (ITID)
+        degree: BSc
+        grade: 109/110
+        start_date: 2020-09
+        end_date: 2024-03
+        location: Brescia, IT
+        summary: 'Coursework: Microservice Architecture, IoT, Big Data, Control Systems, Computer Architecture, Signal Analysis, Cyber Security, User Experience.'
+        highlights: []
+      - institution: IIS Benedetto Castelli
+        area: Computer Science — Telecommunications
+        degree: Diploma
+        grade: 100 cum laude
+        start_date: 2015-09
+        end_date: 2020-06
+        location: Brescia, IT
+        summary: 'Coursework: Telecommunications systems, TCP/IP, fiber optics, C, Python, Java.'
+        highlights: []
     skills:
-      - label: Programming Languages
-        details: 'C++, C, Java, C#, SQL, Python, PDDL'
-      - label: Technologies & Frameworks
-        details: '.NET Framework, WPF, Jira, Git, Figma'
-      - label: Soft-Skills
-        details: 'Problem-solving, Adaptable to new technologies and methodologies, Critical and objective thinking, Resilience, Empathy, Computational thinking, Teamwork'
-      - label: Hobbies
-        details: 'Basketball, Valorant, 3D Printing'
-
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+      - label: Languages
+        details: 'C#, C++, C, Java, Python, SQL'
+      - label: Technologies
+        details: '.NET Framework, WPF, Git, Jira, Figma'
+      - label: Interests
+        details: 'Basketball, running, 3D printing'
   sort_entries: none
 design:
   theme: classic
   page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
-    show_last_updated_date: true
+    size: a4
+    top_margin: 1.8cm
+    bottom_margin: 1.8cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_page_numbering: false
+    show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    name: rgb(31, 56, 100)
+    connections: rgb(31, 56, 100)
+    section_titles: rgb(31, 56, 100)
+    links: rgb(31, 56, 100)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
     font_family: Source Sans 3
@@ -160,13 +121,13 @@ design:
     bold: true
     small_caps: false
     line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
+    vertical_space_above: 0.3cm
+    vertical_space_below: 0.2cm
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
+    vertical_space_between_entries: 0.9em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
@@ -174,9 +135,9 @@ design:
   highlights:
     bullet: •
     nested_bullet: '-'
-    top_margin: 0.25cm
+    top_margin: 0.18cm
     left_margin: 0.4cm
-    vertical_space_between_highlights: 0.25cm
+    vertical_space_between_highlights: 0.18cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
   entry_types:
@@ -185,7 +146,7 @@ design:
     education_entry:
       main_column_first_row_template: '**INSTITUTION**, AREA'
       degree_column_template: '**DEGREE**'
-      degree_column_width: 1cm
+      degree_column_width: 1.7cm
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
@@ -222,9 +183,7 @@ design:
       date_and_location_column_template: DATE
 locale:
   language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
+  phone_number_format: international
   date_template: MONTH_ABBREVIATION YEAR
   month: month
   months: months
@@ -259,6 +218,5 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-12-16'
+  date: '2026-05-21'
   bold_keywords: []
-  sort_entries: none
