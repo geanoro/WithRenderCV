@@ -9,13 +9,19 @@
 
 # Summary
 
-Full-stack engineer grounded in the fundamentals — which is why new languages, frameworks and domains rarely slow me down.
+Full-stack engineer who learns fast by looking for patterns — what tools, problems and domains share, more than what sets them apart.
 
 I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.
 
 Proven on real deliveries: a production industrial measurement system and a complete registration portal for a freelance client.
 
 # Experience
+
+## Freelance, Full-Stack Engineer
+
+- Apr 2026 – present
+- Brescia, IT
+- Help small businesses and professionals streamline their operations — building WhatsApp automation flows, online booking systems, and custom workflows for automatic PDF generation.
 
 ## autosupermarket.it, Full-Stack Engineer
 
@@ -47,7 +53,7 @@ Proven on real deliveries: a production industrial measurement system and a comp
 ## Whatomate — WhatsApp Business Platform (Open Source)
 
 - Dec 2025 – present
-- Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
+- Fork of an open-source, single-binary WhatsApp platform in Go; extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
 
 # Education
 
@@ -65,4 +71,4 @@ Proven on real deliveries: a production industrial measurement system and a comp
 
 - Languages: JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java
 - Technologies: React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines
-- Interests: Basketball, running (marathon finisher), 3D printing
+- Interests: Runner (marathon finisher), boardgames, videogames
