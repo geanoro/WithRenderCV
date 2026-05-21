@@ -17,22 +17,23 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 # Experience
 
-## autosupermarket.it, Software Engineer
+## autosupermarket.it, Full-Stack Engineer
 
 - Jan 2026 – Apr 2026
 - Brescia, IT
-- Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.
-- Set up CI/CD pipelines to automate build and deployment.
+- Built the Welcome Calls feature end to end (domain model, controller, datatable, Vue modal, CSV history backfill) to track post-sale customer-contact activities from the back office.
+- Eliminated N+1 queries in the headquarter reporting table, cutting it from ~2,800 to ~10 queries via batch loading and a pre-aggregated log table.
+- Realigned the analytics dashboards with the company Grafana metrics, rewriting lead, activation and conversion queries with SQL window functions.
+- Shipped new full-stack features on a Symfony 6.4 + Vue 3 codebase (one-off contracts, expiring-subscription tracking, cascading geographic filters) and set up CI/CD pipelines.
 
 ## Tecnosens SpA, Software Engineer
 
 - July 2024 – Jan 2026
 - Brescia, IT
-- Built the full desktop application (WPF, .NET Framework) for a cobot-driven optical measurement system, owning the UI end to end.
-- Designed and implemented the database architecture supporting multiple geometry types, letting the system handle heterogeneous measurement applications.
-- Developed a computer-vision routine for automatic ROI detection during strain capture of glass objects, removing a manual setup step.
-- Ran repeatability & reproducibility (R&R) analysis to validate measurement accuracy.
-- Delivered the first production release within a 5-month development timeline.
+- Developed the WPF/.NET desktop app driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and acquisition processes.
+- Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.
+- Led a heavy backend and frontend refactoring of the automotive-glass QC system, comparing multiple distance sensors against a reference tare.
+- Built from scratch a wine-bottle QC system: confocal sensors and a linear algorithm flag bulges and sinks on rotating bottles; installed and validated on the production line.
 
 # Projects
 
@@ -47,12 +48,6 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 - Dec 2025 – present
 - Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
-
-## Thesis — OCR in the Wild
-
-- Mar 2024 – Mar 2024
-- Surveyed classical and modern OCR methods, deep-diving CRNN architectures.
-- Compared transformer-based state-of-the-art approaches against traditional pipelines across vision and NLP tasks.
 
 # Education
 

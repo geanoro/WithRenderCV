@@ -16,14 +16,16 @@ cv:
       - 'Background in IoT, telecommunications and signal processing; picks up new stacks fast.'
     experience:
       - company: autosupermarket.it
-        position: Software Engineer
+        position: Full-Stack Engineer
         start_date: 2026-01
         end_date: 2026-04
         location: Brescia, IT
         summary:
         highlights:
-          - 'Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.'
-          - 'Set up CI/CD pipelines to automate build and deployment.'
+          - 'Built the Welcome Calls feature end to end (domain model, controller, datatable, Vue modal, CSV history backfill) to track post-sale customer-contact activities from the back office.'
+          - 'Eliminated N+1 queries in the headquarter reporting table, cutting it from ~2,800 to ~10 queries via batch loading and a pre-aggregated log table.'
+          - 'Realigned the analytics dashboards with the company Grafana metrics, rewriting lead, activation and conversion queries with SQL window functions.'
+          - 'Shipped new full-stack features on a Symfony 6.4 + Vue 3 codebase (one-off contracts, expiring-subscription tracking, cascading geographic filters) and set up CI/CD pipelines.'
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
@@ -31,11 +33,10 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Built the full desktop application (WPF, .NET Framework) for a cobot-driven optical measurement system, owning the UI end to end.'
-          - 'Designed and implemented the database architecture supporting multiple geometry types, letting the system handle heterogeneous measurement applications.'
-          - 'Developed a computer-vision routine for automatic ROI detection during strain capture of glass objects, removing a manual setup step.'
-          - 'Ran repeatability & reproducibility (R&R) analysis to validate measurement accuracy.'
-          - 'Delivered the first production release within a 5-month development timeline.'
+          - 'Developed the WPF/.NET desktop app driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and acquisition processes.'
+          - 'Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.'
+          - 'Led a heavy backend and frontend refactoring of the automotive-glass QC system, comparing multiple distance sensors against a reference tare.'
+          - 'Built from scratch a wine-bottle QC system: confocal sensors and a linear algorithm flag bulges and sinks on rotating bottles; installed and validated on the production line.'
     projects:
       - name: 'Pyromac Portal — Full-Stack Registration Platform'
         start_date: 2025-08
@@ -51,13 +52,6 @@ cv:
         summary: 'Fork of an open-source, single-binary WhatsApp platform written in Go.'
         highlights:
           - 'Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.'
-      - name: 'Thesis — OCR in the Wild'
-        start_date: 2024-03
-        end_date: 2024-03
-        summary:
-        highlights:
-          - 'Surveyed classical and modern OCR methods, deep-diving CRNN architectures.'
-          - 'Compared transformer-based state-of-the-art approaches against traditional pipelines across vision and NLP tasks.'
     education:
       - institution: Università degli Studi di Brescia
         area: Engineering of Digital Enterprise Technologies (ITID)
@@ -139,7 +133,7 @@ design:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.9em
+    vertical_space_between_entries: 0.75em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
@@ -149,7 +143,7 @@ design:
     nested_bullet: '-'
     top_margin: 0.18cm
     left_margin: 0.4cm
-    vertical_space_between_highlights: 0.18cm
+    vertical_space_between_highlights: 0.15cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
   entry_types:
