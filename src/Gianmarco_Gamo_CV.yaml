@@ -15,10 +15,19 @@ cv:
       - 'Delivered a production industrial measurement system and a complete registration portal for a freelance client.'
       - 'Background in IoT, telecommunications and signal processing; picks up new stacks fast.'
     experience:
+      - company: autosupermarket.it
+        position: Software Engineer
+        start_date: 2026-01
+        end_date: 2026-04
+        location: Brescia, IT
+        summary:
+        highlights:
+          - 'Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.'
+          - 'Set up CI/CD pipelines to automate build and deployment.'
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
-        end_date: present
+        end_date: 2026-01
         location: Brescia, IT
         summary:
         highlights:
@@ -42,11 +51,6 @@ cv:
         summary: 'Fork of an open-source, single-binary WhatsApp platform written in Go.'
         highlights:
           - 'Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.'
-      - name: 'Back-Office Refactoring — autosupermarket.it'
-        summary:
-        highlights:
-          - 'Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.'
-          - 'Set up CI/CD pipelines to automate build and deployment.'
       - name: 'Thesis — OCR in the Wild'
         start_date: 2024-03
         end_date: 2024-03

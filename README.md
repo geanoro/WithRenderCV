@@ -17,9 +17,16 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 # Experience
 
+## autosupermarket.it, Software Engineer
+
+- Jan 2026 – Apr 2026
+- Brescia, IT
+- Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.
+- Set up CI/CD pipelines to automate build and deployment.
+
 ## Tecnosens SpA, Software Engineer
 
-- July 2024 – present
+- July 2024 – Jan 2026
 - Brescia, IT
 - Built the full desktop application (WPF, .NET Framework) for a cobot-driven optical measurement system, owning the UI end to end.
 - Designed and implemented the database architecture supporting multiple geometry types, letting the system handle heterogeneous measurement applications.
@@ -40,11 +47,6 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 
 - Dec 2025 – present
 - Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
-
-## Back-Office Refactoring — autosupermarket.it
-
-- Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.
-- Set up CI/CD pipelines to automate build and deployment.
 
 ## Thesis — OCR in the Wild
 
