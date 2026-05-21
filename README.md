@@ -39,13 +39,11 @@ Background in IoT, telecommunications and signal processing; picks up new stacks
 ## Whatomate — WhatsApp Business Platform (Open Source)
 
 - Dec 2025 – present
-- Extended the visual flow builder with conditional branching logic and added per-session run logs for end-to-end flow debugging.
-- Built a webhook trigger API letting external systems (CRM, e-commerce) start chatbot flows with injected variables.
-- Worked across the Go backend and the Vue 3 frontend.
+- Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
 
-## Back-Office Web Application Refactoring
+## Back-Office Refactoring — autosupermarket.it
 
-- Refactored the back-office web application of an e-commerce platform built on PHP and Symfony.
+- Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.
 - Set up CI/CD pipelines to automate build and deployment.
 
 ## Thesis — OCR in the Wild

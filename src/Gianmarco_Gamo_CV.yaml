@@ -41,13 +41,11 @@ cv:
         end_date: present
         summary: 'Fork of an open-source, single-binary WhatsApp platform written in Go.'
         highlights:
-          - 'Extended the visual flow builder with conditional branching logic and added per-session run logs for end-to-end flow debugging.'
-          - 'Built a webhook trigger API letting external systems (CRM, e-commerce) start chatbot flows with injected variables.'
-          - 'Worked across the Go backend and the Vue 3 frontend.'
-      - name: 'Back-Office Web Application Refactoring'
+          - 'Extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.'
+      - name: 'Back-Office Refactoring — autosupermarket.it'
         summary:
         highlights:
-          - 'Refactored the back-office web application of an e-commerce platform built on PHP and Symfony.'
+          - 'Refactored the back-office web application of the e-commerce platform, built on PHP and Symfony.'
           - 'Set up CI/CD pipelines to automate build and deployment.'
       - name: 'Thesis — OCR in the Wild'
         start_date: 2024-03
