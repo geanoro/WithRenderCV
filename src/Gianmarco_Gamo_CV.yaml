@@ -11,7 +11,7 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Full-stack engineer who ships end to end across web (React/FastAPI), desktop (.NET) and Go services.'
+      - 'Full-stack engineer grounded in the fundamentals — which is why new languages, frameworks and domains rarely slow me down.'
       - 'I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.'
       - 'Proven on real deliveries: a production industrial measurement system and a complete registration portal for a freelance client.'
     experience:
@@ -69,7 +69,7 @@ cv:
         start_date: 2015-09
         end_date: 2020-06
         location: Brescia, IT
-        summary: 'Coursework: Telecommunications systems, TCP/IP, fiber optics, C, Python, Java.'
+        summary:
         highlights: []
     skills:
       - label: Languages

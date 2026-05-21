@@ -9,7 +9,7 @@
 
 # Summary
 
-Full-stack engineer who ships end to end across web (React/FastAPI), desktop (.NET) and Go services.
+Full-stack engineer grounded in the fundamentals — which is why new languages, frameworks and domains rarely slow me down.
 
 I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.
 
