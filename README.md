@@ -9,9 +9,11 @@
 
 # Summary
 
-Full-stack engineer who learns fast by looking for patterns — what tools, problems and domains share, more than what sets them apart.
+Full-stack engineer drawn to patterns — the structure shared across tools, problems and domains, more than the surface details that set them apart.
 
-I like reaching goals — but even more, reaching them elegantly when I can: stepping back to see the whole system and find the right abstraction, the kind that makes future change nothing to fear.
+I care about reaching goals, and about reaching them well: I step back to see the whole system and find the right abstraction, so future change becomes easy instead of risky.
+
+I learn by building, and I dig into the why behind a problem before committing to a solution.
 
 # Experience
 
