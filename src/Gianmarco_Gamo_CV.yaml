@@ -52,6 +52,13 @@ cv:
           - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.'
           - 'Developed the React frontend (Vite, Mantine UI, Jotai) and the Python backend (FastAPI, Alembic).'
           - 'Added a Google-powered RAG assistant so users can query product manuals conversationally.'
+      - name: 'Thesis — "OCR in the Wild"'
+        start_date: 2024-03
+        end_date: 2024-03
+        summary:
+        highlights:
+          - 'Surveyed OCR end to end — from classical pipelines to CRNN and transformer-based models.'
+          - 'Worked through the foundations of modern deep learning (backpropagation, attention), comparing state-of-the-art models against traditional approaches across vision and NLP.'
     education:
       - institution: Università degli Studi di Brescia
         area: Engineering of Digital Enterprise Technologies (ITID)
@@ -62,7 +69,7 @@ cv:
         location: Brescia, IT
         summary: 'Coursework: Microservice Architecture, Computer Architecture, Big Data, Cyber Security, Information Theory, Embedded Systems, User Experience.'
         highlights:
-          - 'Thesis — "OCR in the Wild": survey of classical vs. transformer-based OCR methods.'
+          - 'GREEN FBK — embedded-systems workshop on smart cities; built an air-quality monitor in C.'
       - institution: IIS Benedetto Castelli
         area: Computer Science — Telecommunications
         degree: Diploma
@@ -73,7 +80,6 @@ cv:
         summary: 'Coursework: Telecommunications, TCP/IP, fiber optics, C, Python, Java.'
         highlights:
           - 'WebValley 2019 — selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota–risk analysis in Python.'
-          - 'GREEN FBK 2019 — embedded-systems workshop on smart cities; built an air-quality monitor in C.'
     skills:
       - label: Languages
         details: 'JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java'

@@ -47,20 +47,25 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 - Developed the React frontend (Vite, Mantine UI, Jotai) and the Python backend (FastAPI, Alembic).
 - Added a Google-powered RAG assistant so users can query product manuals conversationally.
 
+## Thesis — "OCR in the Wild"
+
+- Mar 2024 – Mar 2024
+- Surveyed OCR end to end — from classical pipelines to CRNN and transformer-based models.
+- Worked through the foundations of modern deep learning (backpropagation, attention), comparing state-of-the-art models against traditional approaches across vision and NLP.
+
 # Education
 
 ## Università degli Studi di Brescia, BSc in Engineering of Digital Enterprise Technologies (ITID)
 
 - Sept 2020 – Mar 2024
 - Brescia, IT
-- Thesis — "OCR in the Wild": survey of classical vs. transformer-based OCR methods.
+- GREEN FBK — embedded-systems workshop on smart cities; built an air-quality monitor in C.
 
 ## IIS Benedetto Castelli, Diploma in Computer Science — Telecommunications
 
 - Sept 2015 – June 2020
 - Brescia, IT
 - WebValley 2019 — selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota–risk analysis in Python.
-- GREEN FBK 2019 — embedded-systems workshop on smart cities; built an air-quality monitor in C.
 
 # Skills
 
