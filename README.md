@@ -11,7 +11,7 @@
 
 Full-stack engineer with roots in electronics, fascinated by how information moves through systems — analog or digital.
 
-I care about reaching goals, and about reaching them eleganly: I step back to see the whole system and find the right abstraction, so future changes are not to be feared.
+I care about reaching goals — and about reaching them elegantly: I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.
 
 # Experience
 
