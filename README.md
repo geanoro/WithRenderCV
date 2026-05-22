@@ -11,9 +11,7 @@
 
 Full-stack engineer who learns fast by looking for patterns — what tools, problems and domains share, more than what sets them apart.
 
-I like reaching goals — but even more, reaching them well: stepping back to see the whole system and find the abstraction that means I never solve the same problem twice.
-
-Proven on real deliveries: a production industrial measurement system and a complete registration portal for a freelance client.
+I like reaching goals — but even more, reaching them elegantly when I can: stepping back to see the whole system and find the right abstraction, the kind that makes future change nothing to fear.
 
 # Experience
 
@@ -21,39 +19,39 @@ Proven on real deliveries: a production industrial measurement system and a comp
 
 - Apr 2026 – present
 - Brescia, IT
-- Help small businesses and professionals streamline their operations — building WhatsApp automation flows, online booking systems, and custom workflows for automatic PDF generation.
+- Help small businesses and professionals — building landing pages, WhatsApp automation flows, online booking systems, and custom workflows such as automatic PDF generation.
 
 ## autosupermarket.it, Full-Stack Engineer
 
 - Jan 2026 – Apr 2026
 - Brescia, IT
-- Built the Welcome Calls feature end to end (domain model, controller, datatable, Vue modal, CSV history backfill) to track post-sale customer-contact activities from the back office.
-- Eliminated N+1 queries in the headquarter reporting table, cutting it from ~2,800 to ~10 queries via batch loading and a pre-aggregated log table.
-- Realigned the analytics dashboards with the company Grafana metrics, rewriting lead, activation and conversion queries with SQL window functions.
-- Shipped new full-stack features on a Symfony 6.4 + Vue 3 codebase (one-off contracts, expiring-subscription tracking, cascading geographic filters) and set up CI/CD pipelines.
+- Improved query efficiency on a high-traffic Symfony/Vue website — eliminating N+1 queries and introducing batch loading.
+- Built the Welcome Calls feature end to end to track post-sale customer-contact activities from the back office.
+- Built analytics dashboards with charts and the supporting database indexes to keep them fast.
+- Shipped new features on the Symfony 6.4 + Vue codebase — one-off digital contracts and expiring-subscription tracking.
 
 ## Tecnosens SpA, Software Engineer
 
 - July 2024 – Jan 2026
 - Brescia, IT
-- Developed the WPF/.NET desktop app driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and acquisition processes.
+- Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measure acquisition processes.
 - Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.
 - Led a heavy backend and frontend refactoring of the automotive-glass QC system, comparing multiple distance sensors against a reference tare.
-- Built from scratch a wine-bottle QC system: confocal sensors and a linear algorithm flag bulges and sinks on rotating bottles; installed and validated on the production line.
+- Built and delivered a wine-bottle QC system: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the electronics for the start trigger.
 
 # Projects
 
-## Pyromac Portal — Full-Stack Registration Platform
+## Pyromac Portal
 
 - Aug 2025 – May 2026
-- Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP, JWT auth and Argon2 password hashing.
+- Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.
 - Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.
-- Integrated Twilio, Resend, hCaptcha and Redis, and handled deployment to the production server.
+- Added a Google-powered RAG assistant so users can query product manuals conversationally.
 
-## Whatomate — WhatsApp Business Platform (Open Source)
+## Doctor's Practice Website
 
-- Dec 2025 – present
-- Fork of an open-source, single-binary WhatsApp platform in Go; extended the Go/Vue flow builder with conditional branching logic and a webhook trigger API for starting flows from external systems.
+- May 2026 – present
+- Custom landing page for a general practitioner where patients can book appointments and request prescriptions or referrals.
 
 # Education
 
