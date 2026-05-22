@@ -33,7 +33,7 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 
 - July 2024 – Jan 2026
 - Brescia, IT
-- Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.
+- Developed the WPF/.NET desktop system driving a cobot that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.
 - Led a heavy backend and frontend refactoring of the automotive-glass QC system, designing the backend so different distance sensors and acquisition timings can be combined against a reference tare.
 - Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the start-trigger electronics.
 - Built the system-alignment page, streamlining the setup procedure to minimise the operator's clicks.
@@ -50,7 +50,7 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 ## Thesis — "OCR in the Wild"
 
 - Mar 2024 – Mar 2024
-- Surveyed OCR end to end — from classical pipelines to CRNN and transformer-based models.
+- Surveyed OCR end to end — from classical computer-vision algorithms (OpenCV) to CRNN and transformer-based models.
 - Worked through the foundations of modern deep learning (backpropagation, attention), comparing state-of-the-art models against traditional approaches across vision and NLP.
 
 # Education
