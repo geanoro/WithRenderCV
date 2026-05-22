@@ -27,18 +27,16 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 - Brescia, IT
 - Improved query efficiency on a high-traffic Symfony/Vue website — cut one heavy reporting page from ~2,800 to ~10 queries through batch loading and N+1 elimination.
 - Built the Welcome Calls feature end to end to track post-sale customer-contact activities from the back office.
-- Built analytics dashboards with charts and the supporting database indexes to keep them fast.
-- Shipped new features on the Symfony 6.4 + Vue codebase — one-off digital contracts and expiring-subscription tracking.
+- Shipped one-off digital contracts and expiring-subscription tracking.
 
 ## Tecnosens SpA, Software Engineer
 
 - July 2024 – Jan 2026
 - Brescia, IT
 - Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.
-- Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.
 - Led a heavy backend and frontend refactoring of the automotive-glass QC system, designing the backend so different distance sensors and acquisition timings can be combined against a reference tare.
-- Built the system-alignment page, streamlining the setup procedure to minimise the operator's clicks.
 - Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the start-trigger electronics.
+- Built the system-alignment page, streamlining the setup procedure to minimise the operator's clicks.
 
 # Projects
 
@@ -46,7 +44,7 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 
 - Oct 2025 – Feb 2026
 - Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.
-- Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.
+- Developed the React frontend (Vite, Mantine UI, Jotai) and the Python backend (FastAPI, Alembic).
 - Added a Google-powered RAG assistant so users can query product manuals conversationally.
 
 # Education
@@ -55,11 +53,14 @@ I care about reaching goals, and about reaching them eleganly: I step back to se
 
 - Sept 2020 – Mar 2024
 - Brescia, IT
+- Thesis — "OCR in the Wild": survey of classical vs. transformer-based OCR methods.
 
 ## IIS Benedetto Castelli, Diploma in Computer Science — Telecommunications
 
 - Sept 2015 – June 2020
 - Brescia, IT
+- WebValley 2019 — selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota–risk analysis in Python.
+- GREEN FBK 2019 — embedded-systems workshop on smart cities; built an air-quality monitor in C.
 
 # Skills
 

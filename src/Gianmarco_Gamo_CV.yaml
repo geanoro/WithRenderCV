@@ -31,8 +31,7 @@ cv:
         highlights:
           - 'Improved query efficiency on a high-traffic Symfony/Vue website — cut one heavy reporting page from ~2,800 to ~10 queries through batch loading and N+1 elimination.'
           - 'Built the Welcome Calls feature end to end to track post-sale customer-contact activities from the back office.'
-          - 'Built analytics dashboards with charts and the supporting database indexes to keep them fast.'
-          - 'Shipped new features on the Symfony 6.4 + Vue codebase — one-off digital contracts and expiring-subscription tracking.'
+          - 'Shipped one-off digital contracts and expiring-subscription tracking.'
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
@@ -41,10 +40,9 @@ cv:
         summary:
         highlights:
           - 'Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.'
-          - 'Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.'
           - 'Led a heavy backend and frontend refactoring of the automotive-glass QC system, designing the backend so different distance sensors and acquisition timings can be combined against a reference tare.'
-          - 'Built the system-alignment page, streamlining the setup procedure to minimise the operator''s clicks.'
           - 'Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the start-trigger electronics.'
+          - 'Built the system-alignment page, streamlining the setup procedure to minimise the operator''s clicks.'
     projects:
       - name: 'Pyromac Portal'
         start_date: 2025-10
@@ -52,7 +50,7 @@ cv:
         summary:
         highlights:
           - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.'
-          - 'Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.'
+          - 'Developed the React frontend (Vite, Mantine UI, Jotai) and the Python backend (FastAPI, Alembic).'
           - 'Added a Google-powered RAG assistant so users can query product manuals conversationally.'
     education:
       - institution: Università degli Studi di Brescia
@@ -63,7 +61,8 @@ cv:
         end_date: 2024-03
         location: Brescia, IT
         summary: 'Coursework: Microservice Architecture, Computer Architecture, Big Data, Cyber Security, Information Theory, Embedded Systems, User Experience.'
-        highlights: []
+        highlights:
+          - 'Thesis — "OCR in the Wild": survey of classical vs. transformer-based OCR methods.'
       - institution: IIS Benedetto Castelli
         area: Computer Science — Telecommunications
         degree: Diploma
@@ -72,7 +71,9 @@ cv:
         end_date: 2020-06
         location: Brescia, IT
         summary: 'Coursework: Telecommunications, TCP/IP, fiber optics, C, Python, Java.'
-        highlights: []
+        highlights:
+          - 'WebValley 2019 — selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota–risk analysis in Python.'
+          - 'GREEN FBK 2019 — embedded-systems workshop on smart cities; built an air-quality monitor in C.'
     skills:
       - label: Languages
         details: 'JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java'
