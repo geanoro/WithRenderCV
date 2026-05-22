@@ -11,9 +11,8 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Full-stack engineer drawn to patterns — the structure shared across tools, problems and domains, more than the surface details that set them apart.'
-      - 'I care about reaching goals, and about reaching them well: I step back to see the whole system and find the right abstraction, so future change becomes easy instead of risky.'
-      - 'I learn by building, and I dig into the why behind a problem before committing to a solution.'
+      - 'Full-stack engineer with roots in electronics, fascinated by how information moves through systems — analog or digital.'
+      - 'I care about reaching goals, and about reaching them eleganly: I step back to see the whole system and find the right abstraction, so future changes are not to be feared.' 
     experience:
       - company: Freelance
         position: Full-Stack Engineer
@@ -22,15 +21,15 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Help small businesses and professionals — building landing pages, WhatsApp automation flows, online booking systems, and custom workflows such as automatic PDF generation.'
-      - company: autosupermarket.it
+          - 'Help small businesses and professionals — building landing pages, WhatsApp automations, online booking systems, and automatic PDF generation.'
+      - company: Autosupermarket
         position: Full-Stack Engineer
         start_date: 2026-01
         end_date: 2026-04
         location: Brescia, IT
         summary:
         highlights:
-          - 'Improved query efficiency on a high-traffic Symfony/Vue website — eliminating N+1 queries and introducing batch loading.'
+          - 'Improved query efficiency on a high-traffic Symfony/Vue website — cut one heavy reporting page from ~2,800 to ~10 queries through batch loading and N+1 elimination.'
           - 'Built the Welcome Calls feature end to end to track post-sale customer-contact activities from the back office.'
           - 'Built analytics dashboards with charts and the supporting database indexes to keep them fast.'
           - 'Shipped new features on the Symfony 6.4 + Vue codebase — one-off digital contracts and expiring-subscription tracking.'
@@ -41,25 +40,20 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measure acquisition processes.'
+          - 'Developed the WPF/.NET desktop system driving a collaborative robot (cobot) that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.'
           - 'Designed a database architecture supporting multiple geometry types so the measurement systems could handle heterogeneous parts.'
-          - 'Led a heavy backend and frontend refactoring of the automotive-glass QC system, comparing multiple distance sensors against a reference tare.'
-          - 'Built and delivered a wine-bottle QC system: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the electronics for the start trigger.'
+          - 'Led a heavy backend and frontend refactoring of the automotive-glass QC system, designing the backend so different distance sensors and acquisition timings can be combined against a reference tare.'
+          - 'Built the system-alignment page, streamlining the setup procedure to minimise the operator''s clicks.'
+          - 'Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the start-trigger electronics.'
     projects:
       - name: 'Pyromac Portal'
-        start_date: 2025-08
-        end_date: 2026-05
+        start_date: 2025-10
+        end_date: 2026-02
         summary:
         highlights:
           - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.'
           - 'Developed the React 19 frontend (Vite, Mantine UI, Jotai) and the FastAPI backend (SQLAlchemy, Alembic), including an admin panel and a Gemini-powered AI assistant.'
           - 'Added a Google-powered RAG assistant so users can query product manuals conversationally.'
-      - name: "Doctor's Practice Website"
-        start_date: 2026-05
-        end_date: present
-        summary:
-        highlights:
-          - 'Custom landing page for a general practitioner where patients can book appointments and request prescriptions or referrals.'
     education:
       - institution: Università degli Studi di Brescia
         area: Engineering of Digital Enterprise Technologies (ITID)
