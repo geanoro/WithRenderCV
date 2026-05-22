@@ -11,8 +11,8 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Full-stack engineer with roots in electronics, fascinated by how information moves through systems — analog or digital.'
-      - 'I care about reaching goals — and about reaching them elegantly: I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.'
+      - 'Full-stack engineer with roots in electronics, fascinated by how information moves through systems, analog or digital.'
+      - 'I care about reaching goals, and about doing it elegantly: I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.'
     experience:
       - company: Freelance
         position: Full-Stack Engineer
@@ -21,7 +21,7 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Help small businesses and professionals — building landing pages, WhatsApp automations, online booking systems, and automatic PDF generation.'
+          - 'Help small businesses and professionals: building landing pages, WhatsApp automations, and PDF generation.'
       - company: Autosupermarket
         position: Full-Stack Engineer
         start_date: 2026-01
@@ -29,9 +29,9 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Improved query efficiency on a high-traffic Symfony/Vue website — cut one heavy reporting page from ~2,800 to ~10 queries through batch loading and N+1 elimination.'
-          - 'Built the Welcome Calls feature end to end to track post-sale customer-contact activities from the back office.'
           - 'Shipped one-off digital contracts and expiring-subscription tracking.'
+          - 'Improved query efficiency on a high-traffic Symfony/Vue website: cut a loading page from ~2,800 to ~10 queries through batch loading and N+1 fixes.'
+          - 'Built the feature to track post-sale customer-contact activities from the back office.'
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
@@ -40,8 +40,8 @@ cv:
         summary:
         highlights:
           - 'Developed the WPF/.NET desktop system driving a cobot that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.'
-          - 'Led a heavy backend and frontend refactoring of the automotive-glass QC system, designing the backend so different distance sensors and acquisition timings can be combined against a reference tare.'
-          - 'Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC connectivity and the start-trigger electronics.'
+          - 'Completely refactored the automotive-glass QC system from scratch, designing the backend so different distance sensors and acquisition timings can be combined during measurement process'
+          - 'Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC signals and the start-trigger custom electronics.'
           - 'Built the system-alignment page, streamlining the setup procedure to minimise the operator''s clicks.'
     projects:
       - name: 'Pyromac Portal'
@@ -50,14 +50,13 @@ cv:
         summary:
         highlights:
           - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.'
-          - 'Developed the React frontend (Vite, Mantine UI, Jotai) and the Python backend (FastAPI, Alembic).'
           - 'Added a Google-powered RAG assistant so users can query product manuals conversationally.'
-      - name: 'Thesis — "OCR in the Wild"'
+      - name: 'Thesis: "OCR in the Wild"'
         start_date: 2024-03
         end_date: 2024-03
         summary:
         highlights:
-          - 'Surveyed OCR end to end — from classical computer-vision algorithms (OpenCV) to CRNN and transformer-based models.'
+          - 'Surveyed OCR end to end: from classical computer-vision algorithms (OpenCV) to CRNN and transformer-based models.'
           - 'Worked through the foundations of modern deep learning (backpropagation, attention), comparing state-of-the-art models against traditional approaches across vision and NLP.'
     education:
       - institution: Università degli Studi di Brescia
@@ -69,9 +68,9 @@ cv:
         location: Brescia, IT
         summary: 'Coursework: Microservice Architecture, Computer Architecture, Big Data, Cyber Security, Information Theory, Embedded Systems, User Experience.'
         highlights:
-          - 'GREEN FBK — embedded-systems workshop on smart cities; built an air-quality monitor in C.'
+          - 'GREEN FBK: embedded-systems workshop on smart cities; built an air-quality monitor in C.'
       - institution: IIS Benedetto Castelli
-        area: Computer Science — Telecommunications
+        area: Computer Science, Telecommunications
         degree: Diploma
         grade: 100 cum laude
         start_date: 2015-09
@@ -79,7 +78,7 @@ cv:
         location: Brescia, IT
         summary: 'Coursework: Telecommunications, TCP/IP, fiber optics, C, Python, Java.'
         highlights:
-          - 'WebValley 2019 — selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota–risk analysis in Python.'
+          - 'WebValley 2019: selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota-risk analysis in Python.'
     skills:
       - label: Languages
         details: 'JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java'
