@@ -11,8 +11,8 @@ cv:
       username: geanoro
   sections:
     summary:
-      - 'Full-stack engineer with roots in electronics, fascinated by how information moves through systems, analog or digital.'
-      - 'I care about reaching goals, and about doing it elegantly: I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.'
+      - 'Engineer who bridges electronics and software: I build industrial and embedded systems end to end — from sensors, motion control and custom trigger electronics up to the desktop and backend software that drives them.'
+      - 'I ship systems that run on real production lines: cobot-driven quality control, confocal-sensor inspection at 60–100 units/min, real-time motion and acquisition. I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.'
     experience:
       - company: Freelance
         position: Full-Stack Engineer
@@ -21,7 +21,7 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Help small businesses and professionals: building landing pages, WhatsApp automations, and PDF generation.'
+          - 'Full-stack delivery for SMEs and professionals: web apps, WhatsApp/API integrations and automated document generation.'
       - company: Autosupermarket
         position: Full-Stack Engineer
         start_date: 2026-01
@@ -29,9 +29,9 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
+          - 'Cut a high-traffic Symfony/Vue page from ~2,800 to ~10 database queries through batch loading and N+1 elimination.'
           - 'Shipped one-off digital contracts and expiring-subscription tracking.'
-          - 'Improved query efficiency on a high-traffic Symfony/Vue website: cut a loading page from ~2,800 to ~10 queries through batch loading and N+1 fixes.'
-          - 'Built the feature to track post-sale customer-contact activities from the back office.'
+          - 'Built back-office tracking of post-sale customer-contact activities.'
       - company: Tecnosens SpA
         position: Software Engineer
         start_date: 2024-07
@@ -39,18 +39,24 @@ cv:
         location: Brescia, IT
         summary:
         highlights:
-          - 'Developed the WPF/.NET desktop system driving a cobot that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.'
-          - 'Completely refactored the automotive-glass QC system from scratch, designing the backend so different distance sensors and acquisition timings can be combined during measurement process'
-          - 'Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC signals and the start-trigger custom electronics.'
-          - 'Built the system-alignment page, streamlining the setup procedure to minimise the operator''s clicks.'
+          - 'Designed and delivered a wine-bottle QC system running at 60–100 bottles/min: confocal sensors and a linear algorithm detect bulges and sinks on rotating bottles inline, including PLC signals and custom start-trigger electronics.'
+          - 'Built the WPF/.NET desktop system driving a cobot across multiple vial and cap types, orchestrating asynchronous motion and measurement-acquisition for dimensional QC.'
+          - 'Re-architected the automotive-glass QC system from scratch so different distance sensors and acquisition timings can be combined within one measurement pipeline.'
+          - 'Built the system-alignment workflow, minimising operator clicks during machine setup.'
     projects:
       - name: 'Pyromac Portal'
         start_date: 2025-10
         end_date: 2026-02
         summary:
         highlights:
-          - 'Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.'
-          - 'Added a Google-powered RAG assistant so users can query product manuals conversationally.'
+          - 'Delivered a production onboarding portal end to end (front-end + backend): a multi-step flow for legal agreements, owner data and contract signing, with SMS/email OTP verification and legally certified timestamping.'
+          - 'Integrated a Google-powered RAG assistant, letting users query product manuals conversationally.'
+      - name: 'Device Test System (Pyromac)'
+        start_date: 2026-05
+        end_date: present
+        summary:
+        highlights:
+          - 'Built the desktop front-end and orchestration backend for an automated device-test bench: test sequencing, result logging and persistence, over an Arduino/RS485 hardware layer.'
       - name: 'Thesis: "OCR in the Wild"'
         start_date: 2024-03
         end_date: 2024-03
@@ -81,9 +87,11 @@ cv:
           - 'WebValley 2019: selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota-risk analysis in Python.'
     skills:
       - label: Languages
-        details: 'JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java'
-      - label: Technologies
-        details: 'React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines'
+        details: 'C, C++, C#, Python, JavaScript, Go, SQL, PHP, Java'
+      - label: Embedded & Industrial
+        details: 'Real-time motion & acquisition control, confocal & distance sensors, PLC signal integration, RS485/serial, custom trigger electronics, cobot integration'
+      - label: Software & Tools
+        details: '.NET Framework / WPF, FastAPI, React, Vue, Symfony, Docker, Git, CI/CD pipelines'
       - label: Interests
         details: 'Runner (marathon finisher), boardgames, videogames'
   sort_entries: none
@@ -233,5 +241,5 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2026-05-21'
+  date: '2026-05-28'
   bold_keywords: []
