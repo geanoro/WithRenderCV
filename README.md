@@ -1,73 +1,11 @@
-# Gianmarco Dancel Gamo's CV
+# Gianmarco Gamo — CV
 
-- Phone: +39 324 825 1107
-- Email: [gamogianmarco@gmail.com](mailto:gamogianmarco@gmail.com)
-- Location: Brescia, IT
-- LinkedIn: [gianmarcogamo](https://linkedin.com/in/gianmarcogamo)
-- GitHub: [geanoro](https://github.com/geanoro)
+- PDF: [cv_2026/Gianmarco_Dancel_Gamo_CV.pdf](cv_2026/Gianmarco_Dancel_Gamo_CV.pdf)
+- Source: [cv_2026/Gianmarco_Gamo_CV.yaml](cv_2026/Gianmarco_Gamo_CV.yaml), custom theme in `cv_2026/giammi/`
 
+Render with [RenderCV](https://github.com/rendercv/rendercv):
 
-# Summary
-
-Full-stack engineer with roots in electronics, fascinated by how information moves through systems, analog or digital.
-
-I care about reaching goals, and about doing it elegantly: I step back to see the whole system and find the right abstraction, so future change is welcomed, not feared.
-
-# Experience
-
-## Freelance, Full-Stack Engineer
-
-- Apr 2026 – present
-- Brescia, IT
-- Help small businesses and professionals: building landing pages, WhatsApp automations, and PDF generation.
-
-## Autosupermarket, Full-Stack Engineer
-
-- Jan 2026 – Apr 2026
-- Brescia, IT
-- Shipped one-off digital contracts and expiring-subscription tracking.
-- Improved query efficiency on a high-traffic Symfony/Vue website: cut a loading page from ~2,800 to ~10 queries through batch loading and N+1 fixes.
-- Built the feature to track post-sale customer-contact activities from the back office.
-
-## Tecnosens SpA, Software Engineer
-
-- July 2024 – Jan 2026
-- Brescia, IT
-- Developed the WPF/.NET desktop system driving a cobot that handles multiple vial and cap types for quality control and dimensional measurement, coordinating asynchronous motion and measurement-acquisition processes.
-- Completely refactored the automotive-glass QC system from scratch, designing the backend so different distance sensors and acquisition timings can be combined during measurement process
-- Built and delivered a wine-bottle QC system measuring 60-100 bottles per minute: confocal sensors and a linear algorithm check rotating bottles for bulges and sinks on the production line, including PLC signals and the start-trigger custom electronics.
-- Built the system-alignment page, streamlining the setup procedure to minimise the operator's clicks.
-
-# Projects
-
-## Pyromac Portal
-
-- Oct 2025 – Feb 2026
-- Built a multi-step onboarding flow (legal agreements, owner data, contract signing) with SMS and email OTP and certified timestamp.
-- Added a Google-powered RAG assistant so users can query product manuals conversationally.
-
-## Thesis: "OCR in the Wild"
-
-- Mar 2024 – Mar 2024
-- Surveyed OCR end to end: from classical computer-vision algorithms (OpenCV) to CRNN and transformer-based models.
-- Worked through the foundations of modern deep learning (backpropagation, attention), comparing state-of-the-art models against traditional approaches across vision and NLP.
-
-# Education
-
-## Università degli Studi di Brescia, BSc in Engineering of Digital Enterprise Technologies (ITID)
-
-- Sept 2020 – Mar 2024
-- Brescia, IT
-- GREEN FBK: embedded-systems workshop on smart cities; built an air-quality monitor in C.
-
-## IIS Benedetto Castelli, Diploma in Computer Science, Telecommunications
-
-- Sept 2015 – June 2020
-- Brescia, IT
-- WebValley 2019: selected for a competitive AI & Health summer research camp; built a cardiovascular-risk model and a microbiota-risk analysis in Python.
-
-# Skills
-
-- Languages: JavaScript, Python, C#, Go, PHP, SQL, C++, C, Java
-- Technologies: React, Vue, FastAPI, .NET Framework / WPF, Symfony, Docker, Git, CI/CD pipelines
-- Interests: Runner (marathon finisher), boardgames, videogames
+```sh
+pip install -r requirements.txt
+cd cv_2026 && rendercv render Gianmarco_Gamo_CV.yaml
+```

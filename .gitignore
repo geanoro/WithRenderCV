@@ -1,6 +1,5 @@
 __pycache__/
-rendercv_output/
 .venv/
 .venv312/
 .DS_Store
-rendercv_output_*/
+rendercv_output*/
